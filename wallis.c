@@ -8,7 +8,7 @@ float wallis_pi(int k){
   for(int i=1;i<=k;i++){
      pi*=((float)4*pow(i,2))/(4*pow(i,2)-1);
   }
-  pi=pi*2
+  pi=pi*2;
   return pi;
 }
 
